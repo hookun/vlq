@@ -3,7 +3,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "description": "Utilities to manipulate ArrayBuffer bit by bit.",
+    "description": "A tool to encode/decode arbitrary unsigned integers using predefined-length chunk of bits.",
     "repository": {
         "type": "git",
         "url": "https://github.com/hookun/vlq"
