@@ -16,7 +16,7 @@
 
 ▸ **encode**(`data`: Array‹number›, `requestedChunkSize?`: undefined | number): *ArrayBuffer*
 
-*Defined in [encode.ts:6](https://github.com/hookun/vlq/blob/8797bf9/src/encode.ts#L6)*
+*Defined in [encode.ts:6](https://github.com/hookun/vlq/blob/84cf483/src/encode.ts#L6)*
 
 **Parameters:**
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **findEfficientChunkSize**(`data`: Array‹number›, `bitLengthList`: number[]): *object*
 
-*Defined in [findEfficientChunkSize.ts:4](https://github.com/hookun/vlq/blob/8797bf9/src/findEfficientChunkSize.ts#L4)*
+*Defined in [findEfficientChunkSize.ts:4](https://github.com/hookun/vlq/blob/84cf483/src/findEfficientChunkSize.ts#L4)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **getBitLength**(`value`: number): *number*
 
-*Defined in [getBitLength.ts:1](https://github.com/hookun/vlq/blob/8797bf9/src/getBitLength.ts#L1)*
+*Defined in [getBitLength.ts:1](https://github.com/hookun/vlq/blob/84cf483/src/getBitLength.ts#L1)*
 
 **Parameters:**
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **getTotalBitLength**(`data`: Array‹number›, `chunkSize`: number, `bitLengthList`: number[]): *number*
 
-*Defined in [getTotalBitLength.ts:3](https://github.com/hookun/vlq/blob/8797bf9/src/getTotalBitLength.ts#L3)*
+*Defined in [getTotalBitLength.ts:3](https://github.com/hookun/vlq/blob/84cf483/src/getTotalBitLength.ts#L3)*
 
 **Parameters:**
 
