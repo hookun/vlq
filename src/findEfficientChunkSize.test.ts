@@ -17,17 +17,17 @@ const test = (
 
 test({
     data: [0, 1, 0, 1, 0, 1, 0, 1, 0, 1],
-    expected: {chunkSize: 1, encodedBitLength: 20},
+    expected: {chunkSize: 1, bitLength: 20},
 });
 test({
     data: [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 4],
-    expected: {chunkSize: 1, encodedBitLength: 26},
+    expected: {chunkSize: 1, bitLength: 26},
 });
 test({
     data: [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 8388607],
-    expected: {chunkSize: 1, encodedBitLength: 66},
+    expected: {chunkSize: 1, bitLength: 66},
 });
 test({
     data: [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 8388608],
-    expected: {chunkSize: 2, encodedBitLength: 66},
+    expected: {chunkSize: 2, bitLength: 66},
 });
