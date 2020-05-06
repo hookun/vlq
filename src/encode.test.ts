@@ -9,7 +9,7 @@ const test = (
 ): void => {
     ava(`${data.join(',')} ${chunkSize}`, (t) => {
         const actual = encode(data, chunkSize);
-        t.is(toString(actual, 0, ''), expected);
+        t.is(toString(actual, 0), expected);
     });
 };
 
