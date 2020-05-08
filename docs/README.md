@@ -5,6 +5,7 @@
 
 ### Functions
 
+* [decode](README.md#const-decode)
 * [encode](README.md#const-encode)
 * [findEfficientChunkSize](README.md#const-findefficientchunksize)
 * [getBitLength](README.md#const-getbitlength)
@@ -12,11 +13,27 @@
 
 ## Functions
 
+### `Const` decode
+
+▸ **decode**(`encoded`: ArrayBuffer): *Generator‹number›*
+
+*Defined in [decode.ts:3](https://github.com/hookun/vlq/blob/f4f873d/src/decode.ts#L3)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`encoded` | ArrayBuffer |
+
+**Returns:** *Generator‹number›*
+
+___
+
 ### `Const` encode
 
 ▸ **encode**(`data`: Array‹number›, `requestedChunkSize?`: undefined | number): *ArrayBuffer*
 
-*Defined in [encode.ts:6](https://github.com/hookun/vlq/blob/4ca73de/src/encode.ts#L6)*
+*Defined in [encode.ts:6](https://github.com/hookun/vlq/blob/f4f873d/src/encode.ts#L6)*
 
 **Parameters:**
 
@@ -33,7 +50,7 @@ ___
 
 ▸ **findEfficientChunkSize**(`data`: Array‹number›, `bitLengthList`: number[]): *object*
 
-*Defined in [findEfficientChunkSize.ts:4](https://github.com/hookun/vlq/blob/4ca73de/src/findEfficientChunkSize.ts#L4)*
+*Defined in [findEfficientChunkSize.ts:4](https://github.com/hookun/vlq/blob/f4f873d/src/findEfficientChunkSize.ts#L4)*
 
 **Parameters:**
 
@@ -54,7 +71,7 @@ ___
 
 ▸ **getBitLength**(`value`: number): *number*
 
-*Defined in [getBitLength.ts:1](https://github.com/hookun/vlq/blob/4ca73de/src/getBitLength.ts#L1)*
+*Defined in [getBitLength.ts:1](https://github.com/hookun/vlq/blob/f4f873d/src/getBitLength.ts#L1)*
 
 **Parameters:**
 
@@ -70,7 +87,7 @@ ___
 
 ▸ **getTotalBitLength**(`data`: Array‹number›, `chunkSize`: number, `bitLengthList`: number[]): *number*
 
-*Defined in [getTotalBitLength.ts:3](https://github.com/hookun/vlq/blob/4ca73de/src/getTotalBitLength.ts#L3)*
+*Defined in [getTotalBitLength.ts:3](https://github.com/hookun/vlq/blob/f4f873d/src/getTotalBitLength.ts#L3)*
 
 **Parameters:**
 
